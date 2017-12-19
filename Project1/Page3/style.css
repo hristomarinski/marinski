@@ -1,0 +1,55 @@
+html, body, header, main, footer, div {
+	padding: 0;
+	margin: 0;
+}
+body {
+    background-color: #130A0A;
+}
+header {
+	background-color: #7D798C;
+	opacity: 0.6;
+	width: 95%;
+	height: 5%;
+	position: relative;
+	top: 150px;
+	left: 50px;
+	color: #000;
+	text-align: center;
+	font-family: Arial;
+	font-size: 20px;
+	padding-top: 5px;
+}
+li {
+	display: inline;
+	padding: 20px;
+	color: black;
+}
+.menu {
+	text-decoration: none;
+	color: #FFF;
+}
+main {
+	width: 95%;
+	height: auto;
+	position: relative;
+	top: 250px;
+	left: 50px;
+	color: #FFF;
+	font-family: Arial;
+}
+footer {
+	background-color: #393232;
+	opacity: 0.5;
+	width: 95%;
+	height: 10%;
+	position: relative;
+	top: 450px;
+	left: 50px;
+	color: #FFF;
+	font-family: Arial;
+	text-align: center;
+	padding-top: 5px;
+}	
+.gallery {
+	text-align: center;
+}

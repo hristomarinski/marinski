@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Контакт</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<!-- The header -->
+	<header>
+		<ul>
+			<li>
+				<a class="menu" href="../Page1/home.html">Начало</a>
+			</li>
+			<li>
+				<a class="menu" href="../Page2/aboutme.html">За мен</a>
+			</li>
+			<li>
+				<a class="menu" href="../Page3/gallery.html">Галерия</a>
+			</li>
+			<li>
+				<a class="menu" href="../Page4/contact.html">Контакт</a>
+			</li>
+		</ul>
+	</header>
+	<!-- The main with contact form -->
+	<main>
+		<div>
+		    <h3>
+		       С мен може да се свържете по следния начин:
+		    </h3>
+		    <p>
+		    	e-mail: marinski@lvmasters.com;
+		    </p>
+		    <p>
+		       <a href="https://www.facebook.com/h.marinsky">Пишете ми във Фейсбук</a>
+		    </p>
+		</div>
+		<div>
+			<h2>
+				Регистрация в Lightchaser.com:
+			</h2>
+			<form method="post" action="register.php">
+				<p>
+				    <label>Потребителско име:
+					    <input type="text" name="un">
+				    </label>
+				</p>
+				<p>
+				    <label>Парола:
+					    <input type="password" name="pw">
+				    </label>
+				</p>
+				<p>
+				    <label>Повтори паролата:
+					    <input type="password" name="repw">
+				    </label>
+				</p>
+				<p>
+					<label>Вид на регистрацията
+					    <input type="radio" name="register" value="0">Физическо лице
+					</label>
+					<label>
+					    <input type="radio" name="register" value="1">Юридическо лице
+				    </label>
+				</p>
+				<p>
+					<label>Желая да получавам известия по e-mail
+						<input type="checkbox" name="mail" value="chcked">
+					</label>
+				</p>
+				<p>
+					<input type="button" name="register" value="Регистрация">
+				</p>
+			</form>
+		</div>
+	</main>
+	<!-- The footer -->
+    <footer>
+		<div>
+			<p>
+				2017 © Христо Марински
+			</p>
+		</div>
+	</footer>
+</body>
+</html>
